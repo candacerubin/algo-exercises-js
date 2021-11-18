@@ -13,3 +13,5 @@ export const grantAccess = (name) => {
 export const denyAccess = (name) => {
 	console.log(`Sorry, ${name}. Access denied.`);
 };
+
+module.exports = { checkAccess, grantAccess, denyAccess };
